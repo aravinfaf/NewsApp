@@ -1,0 +1,16 @@
+dependencies {
+    testImplementation "junit:junit:${versions.junit}"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:${versions.mockitoKotlin}"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:${versions.coroutines}"
+    testImplementation "org.mockito:mockito-core:${versions.mockito}"
+    testImplementation "androidx.arch.core:core-testing:${versions.androidxArch}"
+
+
+    androidTestImplementation "androidx.test.ext:junit:${versions.testExt}"
+    androidTestImplementation "androidx.test.espresso:espresso-core:${versions.espressoCore}"
+    androidTestImplementation "androidx.test:core:${versions.test_core}"
+    androidTestImplementation "androidx.test:rules:${versions.test_rules}"
+    androidTestImplementation "androidx.test:runner:${versions.test_runner}"
+    androidTestImplementation "org.mockito:mockito-android:${versions.mockito}"
+    androidTestImplementation "org.mockito:mockito-core:${versions.mockito}"
+}
